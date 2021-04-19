@@ -3,7 +3,8 @@
 ### Automatically add Remark for Swift UI file in Xcode
 
 #### 自动为swift ui 项目下的.swift 文件添加形如 // VStack 的备注
-#### 全自动拯救双眼
+#### 全自动拯救双眼 
+
 
 ## 使用方法
 
@@ -17,3 +18,6 @@
 #### 本项目为python自动化脚本，会完全替换原始代码文件（不会处理非swift结尾文件）
 #### 首次使用前请注意备份自己的代码，以免出现意外情况
 #### 个性化定制请直接自行修改handler/markit.py
+
+
+##### 破事水：xcode都超过20G了..为什么连1.7G的idea都打不过...
