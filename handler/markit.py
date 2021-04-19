@@ -37,7 +37,7 @@ def mark_it(path):
             # print(ocl)
             try:
                 tmp_ocl = re.sub(r'\((.*?)\)', '', ocl)
-                rel = re.search('(.*)? \\{', tmp_ocl).groups("1")[0].strip().split(" ")[-1]
+                rel = re.search('(.*)?\\{', tmp_ocl).groups("1")[0].strip().split(" ")[-1]
             except:
                 rel = ocl.split("{")[0].strip().split(" ")[-1]
             wait_mark.append(rel)
