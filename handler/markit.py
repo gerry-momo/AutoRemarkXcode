@@ -32,6 +32,10 @@ def mark_it(path):
         if "{" in ocl and "}" in ocl:
             new_code_list.append(ocl)
             continue
+        
+        if ocl.strip().startswith('//'):
+            new_code_list.append(ocl)
+            continue
 
         if "{" in ocl:
             # print(ocl)
